@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hi, I'm Elijah</title>
+    
+    <style>
+    @import url(MyWebsite.css);
+    </style>
+</head>
+<body>
+    
+    <section class="section-1" >
+        
+        <header>
+            <nav class="nav-header">
+                <ul class="ul-header">
+                    <li class="get-in-touch-header"><a href="#g">GET IN TOUCH</a></li>
+                    <li class="about-header"> <a href="#z">ABOUT</a> </li>
+                   <li class="home-header">HOME</li>
+                </ul>
+            </nav>
+        </header>    
+
+<main>
+        <div class="first-section" id="startH">
+            <h1 class="precious">Hi, I'm Elijah.</h1>
+                <p class="front-end">A Front-end Web Developer.</p>
+                <p class="vast">Vast in HTML, CSS, Java Script & Python.</p>
+            <hr>
+                <p class="data">I am also a Data Entry Specialist.</p>
+                <a href="mailto:odebode.precious@gmail.com" title="Hire Me. Send a Mail"><p class="hire">Hire Me</p></a>
+                <a href="#startHA"><img src="images/arrow-29261_640.png" width="50" height="50" id="arrow"></a>
+   
+        </div>
+    </section>
+    <div class="second-section">
+    
+        <div class="programming">
+            <div class="what-i-can-do"><P id="startHA">What I Can Do.</P></div>
+            <div class="code-out"><p>I can Code Out Your Designed Webpages in</p></div>
+                <span class="html-css-javascript"><p> &lt;html/&gt;, {css} and javascript( ).</p></span>
+                <span class="i-like-to"><p>I like to keep it exactly as you want it.</p></span>
+        </div>
+        <div class="data-1">
+            <div class="data-entry"><p>Data Entry</p></div>
+                <span class="processed-document"><p>Get your unprocessed Documents into a Documentable Data Format</p></span>
+                <span class="presentation"><p>For Presentation, Documentation, Filing, E-mailing e.t.c</p></span>
+        </div>
+        <div class="i-can-help-1">
+            <div class="i-can-help"><p>I Can Help.</p></div>   
+            <span class="freelance"><p>I'm Currently Available For Freelance Work.</p></span>
+            <span class="virtual-assistant"><p>I am also Currently Available for Virtual Assistant Jobs.</p></span>
+        </div>
+
+    </div>
+    
+</main>	
+<Footer>
+    <div class="last">
+        <div ><h2 class="ABOUT">ABOUT</h2></div>
+        <img src="images/personal-picture.jpg" width="220" height="220" id="personal-picture">
+            <span class="my-name"><p>My name is <b>Elijah Oluwadamilola Odebode</b> and I am 20 years old. <br>I am a Nigeria based Front-End Web Developer. <br>Currently an undergraduate in the University of Ilorin, Kwara State, Nigeria.</p></span>
+            <span class="studying"><p>I am studying Applied Geophysics and I am aspiring towards becoming a <b>Geophysicist</b> as well as a <b>Software Developer.</b></p></span>
+        <a href="#startH"><span class="see-you"><blockquote><p><em>See You At The Top</em></p></blockquote></span></a>
+        <div class="project"><em><p>If you have a project you want to get started with, think you need my help with something or just fancy saying Hi, then get in Touch.</p></em></div>
+        </div>
+        <div class="touch">
+        <h2 class="get-in-touch" id="g">GET IN TOUCH</h2>
+        <div class="image-social-media">
+            <a href="https://www.instagram.com/Ewonder333"> <img src="images/instagram.jpg" width="40" height="40" id="instagram"></a>
+            <a href="https://www.wa.me/+2348160814084"><img src="images/whatsapp.png" width="70" height="40" id="whatsapp"></a>
+            <a href="https://www.twitter.com/Ewonder333"><img src="images/Twitter-featured.png" width="50" height="40" id="twitter"></a>
+        </div>
+        <br>
+        <div class="email-tel">
+            <img src="images/google.png" width="40" height="40" id="email-image"><span id="email"><a href="mailto:odebode.precious@gmail.com">odebode.precious@gmail.com</a></span> 
+
+            <img src="images/tel.png" width="34" height="34" id="tel-image"><span id="tel">tel: +2348160814084</span>
+        </div>
+    </div>        
+</Footer>
+
+<script>
+window.addEventListener("DOMContentLoaded", function(e) {
+    var links = document.getElementsByTagName("a");
+    for (var i=0; i < links.length; i++) {
+        if(!links[i].hash) continue;
+        if(links[i].origin + links[i].pathname !=self.location.href) continue;
+        (function(anchorPoint) {
+            links[i].addEventListener("click", function(e){
+                anchorPoint.scrollIntoView(true);
+                e.preventDefault();
+            }, false);
+        })(document.getElementById(Links[i].hash.replace(/#/, "")))
+    }
+}, false);
+</script>
+  
+</body>
+</html>
