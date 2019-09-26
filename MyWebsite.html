@@ -14,7 +14,7 @@
     
     <section class="section-1" >
         
-        <header>
+        <!-- <header>
             <nav class="nav-header">
                 <ul class="ul-header">
                     <li class="get-in-touch-header"><a href="#g">GET IN TOUCH</a></li>
@@ -22,7 +22,7 @@
                    <li class="home-header">HOME</li>
                 </ul>
             </nav>
-        </header>    
+        </header>     -->
 
 <main>
         <div class="first-section" id="startH">
@@ -82,22 +82,6 @@
         </div>
     </div>        
 </Footer>
-
-<script>
-window.addEventListener("DOMContentLoaded", function(e) {
-    var links = document.getElementsByTagName("a");
-    for (var i=0; i < links.length; i++) {
-        if(!links[i].hash) continue;
-        if(links[i].origin + links[i].pathname !=self.location.href) continue;
-        (function(anchorPoint) {
-            links[i].addEventListener("click", function(e){
-                anchorPoint.scrollIntoView(true);
-                e.preventDefault();
-            }, false);
-        })(document.getElementById(Links[i].hash.replace(/#/, "")))
-    }
-}, false);
-</script>
   
 </body>
 </html>
