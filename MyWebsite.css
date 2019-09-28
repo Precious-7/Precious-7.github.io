@@ -11,6 +11,7 @@ body{
     margin-left: 0%;
     margin-top: -58px; 
     padding: 0;
+    /* border: 1px solid black; */
     /* margin-top: -55px;
     margin-left: 2px; */
 }
@@ -50,7 +51,11 @@ a:hover .email{
     height: 680px;
     background: url(images/section-1-background.png) no-repeat;
 }
-nav ul li{
+.nav-header{
+    width: 100%;
+    /* border: 3px solid blue; */
+}
+ul li{
     color: white;
     /* padding-right: 300px; */
     font-family: 'Trebuchet MS';
@@ -222,6 +227,9 @@ hr{
     font-size: 20px; 
     text-align: center;
 }
+.project-mobile{
+    display: none;
+}
 .second-section{
     border-bottom: 2px solid  #1c68c0;
     height: 950px;
@@ -253,7 +261,9 @@ hr{
     clear: left;
     margin-left: 565px; 
 }
-
+.ABOUT-MOBILE{
+    display: none;
+}
 .my-name{
     color:white;
     font-size: 20px;
@@ -266,6 +276,9 @@ hr{
     text-align: center;
     width: 500px;
 }
+#studying{
+    display: none;
+}
 .see-you{
     color:white;
     font-size: 20px;
@@ -273,6 +286,7 @@ hr{
     width: 500px;
 }
 .last{
+    /* border: 1px solid black; */
     width: 100%;
     height:500px;
     border-bottom: 2px solid #1c68c0;
@@ -281,6 +295,7 @@ hr{
     background-size: 100%;
 }
 footer{
+    /* border: 1px solid black; */
     width: 100%;
     margin-top: -22px;
 }
@@ -324,4 +339,456 @@ footer{
     position:relative;
     left: 135px;
     top: 7px;
+}
+
+/*  MEDIA-QUERy */
+
+/* @media screen and (max-width: 900px) {
+    .second-section{
+        background: red;
+    }
+}
+@media screen and (max-width: 600px) {
+    .second-section{
+        background: blue;
+    }
+} */
+
+@media screen and (max-width: 1280px) {
+    #personal-picture{
+        margin-left: 530px;
+    }
+}
+@media screen and (max-width: 1230px) {
+    #personal-picture{
+        margin-left: 500px;
+    }
+    #arrow{
+        position: absolute;
+        top: 680px;
+        left: 580px;
+    }
+    .second-section{
+        width: 1205px;
+    }
+    .programming{
+        width: 860px;
+        position: relative;
+        left: 174px;
+    }
+    .data-1{
+        width: 860px;
+    }
+    .i-can-help-1{
+        width: 960px;
+    }
+    #studying{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .second-section{
+        width: 1068px;
+    }
+    #personal-picture{
+        margin-left: 430px;
+        display: block;
+    }
+    #arrow{
+        position: absolute;
+        top: 680px;
+        left: 500px;
+    }
+    .programming{
+        width: 784px;
+        position: relative;
+        left: 130px;
+    }
+    .data-1{
+        width: 740px;
+    }
+    .data-entry{
+        position: relative;
+        left: -20px;
+    }
+    .i-can-help-1{
+        width: 830px;
+    }
+    #studying{
+        display:  none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    /* .nav-header{
+        margin-left: -600px;
+    } */
+    hr{
+        position: relative;
+        top: 200px;
+        color:red;
+        margin-left: 100px;
+        margin-right: 100px;
+        /* hr must be in the bottom */
+    }
+    /* .first-section{
+        position: relative;
+        top: -100px;
+    }     */
+    .second-section{
+        width: 100%;
+        border: none;
+    }
+    .precious{
+        margin-left: -100px;
+    }
+    .front-end{
+        margin-left: -100px;
+    }
+    .vast{
+        margin-left: -100px;
+    }
+    .data{
+        margin-left: -100px;
+    }
+    .hire{
+        margin-left: -100px;
+    }
+    #arrow{
+        position: absolute;
+        top: 680px;
+        left: 375px;
+    }
+    .programming{
+        width: 800px;
+        margin-left: -120px;
+        border: none;
+        /* position: relative;
+        left: 130px; */
+    }
+    .data-1{
+        width: 800px;
+        margin-left: -150px;
+        margin-top: -70px;
+        border: none;
+    }
+    .data-entry{
+        position: relative;
+        left: -20px;
+    }
+    .i-can-help-1{
+        width: 800px;
+        margin-left: -115px;
+        margin-top: -120px;
+        border: none;
+    }
+    .section-1{
+        width: 800px;
+        background-position-x: -300px;
+    } 
+    footer{
+        width: 100%;
+        margin-top: -200px;
+    }
+    .last{
+        border: none;
+        width: 100%;
+        height:650px;
+    }
+    #personal-picture{
+        margin-left: 290px;
+        display: block;
+    }    
+    .image-social-media{
+        width: 200px; 
+        margin-left: 165px;
+    }
+    .get-in-touch{
+        margin-top: -30px;
+    }
+    .studying{
+        display: none;
+    }
+    #studying{
+        /* border: 3px solid blue; */
+        display: inline-block;
+        width: 700px;
+        margin-left: 50px;
+    }
+    .project{
+        color: #1c68c0;
+        font-size: 20px; 
+        text-align: center;
+        margin-left: 100px;
+        width: 600px;
+    }
+    #email-image{
+        position:relative;
+        left: -35px;
+        top: 10px; 
+    }
+    #email{
+        margin-left: -35px;
+    }
+    #tel{
+        margin-left: 77px;
+    }
+    #tel-image{
+        position:relative;
+        left: 75px;
+        top: 7px;
+    } 
+}
+@media screen and (max-width: 768px) {
+    hr{
+        position: relative;
+        top: 200px;
+        color:red;
+        margin-left: 100px;
+        margin-right:120px;
+        /* hr must be in the bottom */
+    }
+    .nav-haeder{
+        margin-left: -30px;
+    }
+    .precious{
+        color: white;
+        font-size: 60px;
+        position: relative;
+        width: 500px;
+        /* top: 280px;
+        left:200px; */
+        /* border: 1px solid white; */
+    }
+    .programming{
+        width: 768px;
+        margin-left: -120px;
+        border: none;
+        /* position: relative;
+        left: 130px; */
+    }
+    .data-1{
+        width: 768px;
+        margin-left: -150px;
+        margin-top: -70px;
+        border: none;
+    }
+    .data-entry{
+        position: relative;
+        left: -5px;
+    }
+    .i-can-help-1{
+        width: 768px;
+        margin-left: -105px;
+        margin-top: -120px;
+        border: none;
+    }
+    .section-1{
+        width: 768px;
+        background-position-x: -300px;
+    } 
+    footer{
+        width: 768px;
+        margin-top: -200px;
+    }
+    .last{
+        border: none;
+        width: 768px;
+        height: 640px;
+        /* background-image: url(images/Group-2.png);
+        background-repeat: no-repeat;
+        background-size: 100%; */
+    }
+
+    #personal-picture{
+        margin-left: 280px;
+        display: block;
+    }    
+    .image-social-media{
+        width: 200px; 
+        margin-left: 145px;
+    }
+    .get-in-touch{
+        margin-top: -30px;
+    }
+    .studying{
+        display: none;
+    }
+    #studying{
+        /* border: 3px solid blue; */
+        display: inline-block;
+        width: 700px;
+        margin-left: 50px;
+        margin-top: -20px;
+    }
+    .project{
+        color: #1c68c0;
+        font-size: 20px; 
+        text-align: center;
+        margin-left: 100px;
+        width: 600px;
+    }
+}
+@media screen and (max-width: 414px){
+    /* html,body{
+        padding-right: -100px;
+    } */
+    hr{
+        position: relative;
+        top: 200px;
+        color:red;
+        margin-left: 50px;
+        margin-right: 400px;
+        margin-top: -20px;
+        /* hr must be in the bottom */
+    }
+    .nav-header{
+        margin-top: 60px;
+        margin-left: -330px;
+    }
+    .precious{
+        color: white;
+        margin-left: -150px;
+        font-size: 50px;
+        display: inline-block;
+        position: relative;
+        width: 320px;
+        top: 150px;
+        /* top: 280px;
+        left:200px; */
+        /* border: 1px solid white; */
+    }
+    .front-end{
+        margin-left: -150px;
+        margin-top: -120px;
+        font-size: 28px;
+    }
+    .vast{
+        margin-left: -150px;
+        margin-top: 40px;
+        font-size: 20px;
+    }
+    .data{
+        margin-left: -150px;
+        font-size: 23px;
+    }
+    .hire{
+        margin-left: -150px;
+        font-size: 22px;
+        text-align: center;
+        padding-top: 5px;
+        border-radius: 100px;
+        width: 150px;
+    }
+    .section-1{
+        background-position-x: -414px; 
+        background-position-y: -150px;
+    }
+    #arrow{
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        top: 535px;
+        left: 197px;
+    }
+    .programming{
+        margin-top: -150px;
+        margin-left: -125px;
+        /* border: 2px solid blue; */
+        width: 400px;
+        height: 280px;
+        /* position: relative;
+        left: 130px; */
+    }
+    .data-1{
+        margin-top: 0px;
+        margin-left: -170px;
+        /* border: 2px solid blue; */
+        width: 400px;
+        height: 210px;
+    }
+    .i-can-help-1{
+        margin-top: 0px;
+        margin-left: -120px;
+        /* border: 2px solid blue; */
+        width: 400px;
+        height: 260px;
+    }
+    .ABOUT{
+        margin-left: -360px;
+    }
+    #personal-picture{
+        margin-left: 95px;
+        display: block;
+    } 
+    .get-in-touch{
+        margin-left: -350px;
+        padding-bottom: 10px;
+    } 
+    .image-social-media{
+        width: 50px;
+        margin-left: 50px;
+        margin-top: -10px;
+    }
+    #instagram{
+        display: block;
+        margin-left: 4px;
+    }
+    #whatsapp{
+        display: block;
+        margin-left: -10px;
+    }
+    #twitter{
+        display: block;
+    }
+    .email-tel{
+        margin-left: -300px;
+    }
+    #email{
+        display: block;
+        margin-top: 10px;
+    }
+    #email-image{
+        margin-left: 20px;
+    }
+    #tel{
+        display: block;
+        margin-top: 10px;
+        margin-left: -50px;
+    }
+    #tel-image{
+        margin-left: -200px;
+    }
+    .my-name{
+        display: none;
+    }
+    .studying{
+        display: none;
+    }
+    #studying{
+        display: none;
+    }
+    .project{
+        display: none;
+    }
+    .ABOUT-MOBILE{
+        display: inline-block;
+        margin-left: 15px;
+        font-size: 18px;
+        text-align: center;
+        color: white;
+        width: 380px;
+    }
+    .see-you{
+        font-size: 18px;
+        text-align: left;
+    }
+    .project-mobile{
+        display: inline-block;
+        color: #1c68c0;
+        font-size: 18px;
+        margin-top: -20px;
+    }
+
 }
